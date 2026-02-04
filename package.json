@@ -1,0 +1,9 @@
+{
+  "name": "read-aloud-pdf-viewer",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "author": "Hai Phan <hai.phan@gmail.com>",
+  "scripts": {
+    "deploy": "aws s3 sync web s3://lsdsoftware-assets/read-aloud/pdf-viewer-2/web --delete"
+  }
+}
